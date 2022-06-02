@@ -129,11 +129,11 @@ public class Main {
     }
 
     public static void mostrarOpcionesDeArmas() {
-        System.out.println("Ingrese tipo de arma");
-        System.out.println("A. Arco");
-        System.out.println("B. Espada");
-        System.out.println("C. Baculo");
-        System.out.println("S. Salir");
+
+        System.out.println("A. qweqweqweqw");
+        System.out.println("B. ererwrwe");
+        System.out.println("C. ddddddddddsdsdsd");
+        System.out.println("S. dddddddddddd");
     }
 
     public static  void resultadoArmeria(){
