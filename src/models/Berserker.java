@@ -1,4 +1,4 @@
-package Models;
+package models;
 
 public class Berserker extends Guerrero {
     private Espada espada;

@@ -1,4 +1,4 @@
-package Models;
+package models;
 
 public class Mago extends Guerrero {
     private Baculo baculo;

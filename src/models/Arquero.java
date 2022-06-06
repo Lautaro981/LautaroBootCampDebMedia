@@ -1,4 +1,4 @@
-package Models;
+package models;
 
 public class Arquero extends  Guerrero {
     private Arco arco;
