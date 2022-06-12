@@ -14,6 +14,7 @@ public class Arquero extends  Guerrero {
 
     @Override
     public void cargarArma(Arma arma, Guerrero guerrero) {
+        // Si acá agregabas un guerrero.getArma() == null, te ahorrabas el metodo estaArmado()
         if (guerrero.getClass().equals(Arquero.class) && (arma.getClass().equals(Arco.class))) {
             this.arco = (Arco) arma;
         } else {

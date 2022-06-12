@@ -31,6 +31,8 @@ public class Ejercito {
 
     public void equiparEjercito(List<Guerrero> guerreroList, List<Arma> armaList) {
         List<Arma> armaAuxiList = new ArrayList<>();
+        // Esto podrias haberlo hecho de la siguiente manera tambien: Como modificas la guerreroList, despues podes loopear sobre esa misma variable
+        // preguntando si guerrero.getArma() == null --> no esta equipado.
         List<Guerrero> guerrerosDesarmadosAuxi = new ArrayList<>();
         armaAuxiList.addAll(armaList);
         guerreroList.forEach(guerrero -> {

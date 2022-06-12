@@ -26,4 +26,9 @@ public class Berserker extends Guerrero {
     public boolean estaArmado() {
         return espada!=null;
     }
+
+    /* Con ésto aplicado a la clase Arquero y Mago, ya te lo tenias reuselto.
+    public void setEspada(Espada espada) {
+        this.espada = espada;
+    }*/
 }

@@ -19,7 +19,7 @@ public class Main {
     }
 
     public static void cargarEjercito() {
-
+        // Con ésto te ahorrabas la implementacion o el uso de clase Ejercito y haciendo lo mismo con Armas, la clase Armeria.
         List<Guerrero> guerrerosAuxi = new ArrayList<>();
 
         mostrarOpcionesDeGuerreros();
@@ -66,11 +66,14 @@ public class Main {
             mostrarOpcionesDeGuerreros();
             opcion = scanner.next().toLowerCase();
         }
+        // Si usabas la lista que tens sobre éste metodo te ahorras el uso de la clase.
+        // Pero sirve para ver lo de metodos estaticos
         ejercito.setGuerreros(guerrerosAuxi);
     }
 
     public static void mostrarOpcionesDeGuerreros() {
         System.out.println("Ingrese tipo de guerrero");
+        // Podes usar un solo sysout y con el \n en un String haces un salto de linea.
         System.out.println("A. Arquero");
         System.out.println("B. Berserker");
         System.out.println("C. Mago");
@@ -129,6 +132,7 @@ public class Main {
     }
 
     public static void mostrarOpcionesDeArmas() {
+        // Mismo comentario que en Guerreros.
         System.out.println("Ingrese tipo de arma");
         System.out.println("A. Arco");
         System.out.println("B. Espada");
@@ -137,7 +141,9 @@ public class Main {
     }
 
     public static  void resultadoArmeria(){
+        // Acá seria bueno que lo loopees al ejercito.getGuerrerosDesarmados e imprimas el objeto.
         System.out.println("Los siguientes guerreros quedaron desarmados"+ejercito.getGuerrerosDesarmados());
+        // Este solo estaria bien.
         System.out.println("Quedo "+armeria.getArmasSinEquipar().size() + "armas sin equipar");
     }
 

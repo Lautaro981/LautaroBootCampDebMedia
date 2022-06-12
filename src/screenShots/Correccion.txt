@@ -1,0 +1,6 @@
+Si bien ya lo comente en clases, tene MUCHO cuidado con el reset HARD, por que vas a perder los cambios el dia de mañana
+Y te vas a querer matar jajaja.
+
+RESOLUCION CONFLICTO FINAL.jpg
+Me hubiera gustado que uses un poco de ambos lados. Pero esta bien, tomaste los cambios del remoto.
+

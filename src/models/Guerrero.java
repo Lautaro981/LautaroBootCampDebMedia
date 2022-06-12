@@ -18,7 +18,7 @@ public abstract class Guerrero {
 
     public abstract double ataqueBasico();
 
-
+    // Con el setter de cada Clase que hereda de guerrero estaba resuelto éste metodo.
     public abstract void cargarArma(Arma arma, Guerrero guerrero);
 
     public abstract boolean estaArmado();
